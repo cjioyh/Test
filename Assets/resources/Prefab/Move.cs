@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour {
-    
+    //public float speed;
 	// Use this for initialization
 	void Start () {
         //var anim = gameObject.GetComponent<Animator>();
@@ -12,6 +12,10 @@ public class Move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //var deltaTime = Time.deltaTime;
+        //var pos = transform.position;
+        //transform.position += new Vector3(deltaTime*speed,0f,0f);
+        //transform.Translate(Vector3.left * Time.deltaTime * speed);
 		if (Input.GetKeyDown(KeyCode.Space))
         {
             //gameObject.GetComponent<Animator>().CrossFade("walk_1_stop", 0.2f);
