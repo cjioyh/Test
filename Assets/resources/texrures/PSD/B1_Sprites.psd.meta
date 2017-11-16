@@ -1,27 +1,23 @@
 fileFormatVersion: 2
-guid: e75bb3b464fc1f34ab101ef757606422
-timeCreated: 1510848129
+guid: 96cadb73b60e4724e87e8be3a5438f11
+timeCreated: 1510846418
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Head
-    21300002: neck
-    21300004: forearm
-    21300006: body
-    21300008: hip
-    21300010: shin
-    21300012: shoulder
-    21300014: foot
-    21300016: Head
-    21300018: body
-    21300020: forearm
-    21300022: forearm_without_hand
-    21300024: hip
-    21300026: wrist
-    21300028: blaster
-    21300030: palm
-    21300032: fingers_top
-    21300034: fingers_bottom
+    21300000: head
+    21300002: spine
+    21300004: shin
+    21300006: foream_and_wrist
+    21300008: foream
+    21300010: hip
+    21300012: wrist_top
+    21300014: blaster
+    21300016: neck
+    21300018: shoulder
+    21300020: wrist_bottom
+    21300022: fingers_top
+    21300024: foot
+    21300026: fingers_bottom
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -96,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Head
+      name: head
       rect:
         serializedVersion: 2
         x: 0
@@ -104,21 +100,21 @@ TextureImporter:
         width: 137
         height: 68
       alignment: 9
-      pivot: {x: 0.6656255, y: 0.61898893}
+      pivot: {x: 0.6695502, y: 0.6088167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: body
+      name: spine
       rect:
         serializedVersion: 2
         x: 2
-        y: 115
+        y: 114
         width: 82
         height: 198
       alignment: 9
-      pivot: {x: 0.33976987, y: 0.27732956}
+      pivot: {x: 0.3476542, y: 0.39063925}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,35 +128,35 @@ TextureImporter:
         width: 43
         height: 170
       alignment: 9
-      pivot: {x: 0.28173155, y: 0.9278701}
+      pivot: {x: 0.29007065, y: 0.92651045}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: forearm
+      name: foream_and_wrist
       rect:
         serializedVersion: 2
         x: 204
-        y: 180
+        y: 181
         width: 48
         height: 194
       alignment: 9
-      pivot: {x: 0.58909637, y: 0.9232532}
+      pivot: {x: 0.597064, y: 0.92027706}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: forearm_without_hand
+      name: foream
       rect:
         serializedVersion: 2
-        x: 263
+        x: 264
         y: 267
         width: 45
         height: 108
       alignment: 9
-      pivot: {x: 0.56335723, y: 0.8643047}
+      pivot: {x: 0.5703932, y: 0.8592973}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,13 +170,13 @@ TextureImporter:
         width: 37
         height: 147
       alignment: 9
-      pivot: {x: 0.4307354, y: 0.8748323}
+      pivot: {x: 0.46623704, y: 0.8767536}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wrist
+      name: wrist_top
       rect:
         serializedVersion: 2
         x: 162
@@ -188,7 +184,7 @@ TextureImporter:
         width: 29
         height: 28
       alignment: 9
-      pivot: {x: 0.5400496, y: 0.9148015}
+      pivot: {x: 0.5430771, y: 0.9164118}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +198,7 @@ TextureImporter:
         width: 73
         height: 175
       alignment: 9
-      pivot: {x: 0.74940807, y: 0.6797035}
+      pivot: {x: 0.69964933, y: 0.6689443}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,7 +212,7 @@ TextureImporter:
         width: 96
         height: 29
       alignment: 9
-      pivot: {x: 0.8823505, y: 0.67129964}
+      pivot: {x: 0.03587423, y: 0.31333292}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,16 +223,16 @@ TextureImporter:
         serializedVersion: 2
         x: 109
         y: 36
-        width: 37
+        width: 43
         height: 113
       alignment: 9
-      pivot: {x: 0.45567632, y: 0.87367535}
+      pivot: {x: 0.39347574, y: 0.8685061}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: palm
+      name: wrist_bottom
       rect:
         serializedVersion: 2
         x: 151
@@ -244,7 +240,7 @@ TextureImporter:
         width: 30
         height: 36
       alignment: 9
-      pivot: {x: 0.5091995, y: 0.92164016}
+      pivot: {x: 0.5277603, y: 0.93954617}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,7 +254,7 @@ TextureImporter:
         width: 27
         height: 31
       alignment: 9
-      pivot: {x: 0.5102217, y: 0.9006202}
+      pivot: {x: 0.5154227, y: 0.94327694}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +263,12 @@ TextureImporter:
       name: foot
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 3
         width: 83
         height: 45
       alignment: 9
-      pivot: {x: 0.79925793, y: 0.843445}
+      pivot: {x: 0.79098666, y: 0.83312935}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +282,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 9
-      pivot: {x: 0.48849997, y: 0.8425998}
+      pivot: {x: 0.53470165, y: 0.8733344}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
