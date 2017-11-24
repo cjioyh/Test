@@ -28,44 +28,95 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: de8047da1831fc6f5c222754a71bdab2
+      Hash: 0e398dc2d2cfe9bb19fb503b310d0173
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: de8047da1831fc6f5c222754a71bdab2
-    totalSpriteSurfaceArea: 67719
+    hashString: 0e398dc2d2cfe9bb19fb503b310d0173
+    totalSpriteSurfaceArea: 2244548
     packables:
     - {fileID: 102900000, guid: 06b71da3fcf750e4aaf767cbdf49633b, type: 3}
     packedSpriteRenderDataKeys:
+    - 9a11ac80b6ca7224b98f03d7a21d5cdf: 21300000
+    - 2d4ca3e46b8c8a549a7c6caac602a06b: 21300000
+    - 6259e67de2c74fc419a7fe2ae0f869cb: 21300000
     - 21bf14830c316484089eb9583232fd88: 21300000
     - fcd35bdaad284b24a8b18f636cc3a6fb: 21300000
-    - 0d323bc598d2233428be256f3521e52b: 21300000
+    - 7bf3a6d9a119dc545814534c7d2e2bc8: 21300000
+    - f33653568c483824084b5fdc34511660: 21300000
+    - d765a4de3f562b14f8c3e612a0df1ee7: 21300000
     - c112e699787601844bb1d387ac7b25f4: 21300000
     - 6a31396b5dc61cc48b6efe4d46fabf74: 21300000
+    - dc0e4eaa1f6a55a44b1d16d858f1667a: 21300000
     - 0e0fc1800c6d3a14f9de0f716a9913c9: 21300000
+    - 0d323bc598d2233428be256f3521e52b: 21300000
     - 58af3cf1519e2264cbbe914a306052cc: 21300000
     - 92009614a5057b74cabe4be6af5c5ed5: 21300000
+    - 67c8a949a2af5de4ca993c8c4d2cff17: 21300000
     - 09691217ecf34e149ab787338e100cfb: 21300000
+    - f06a418e7d8d6d440a656ff185b12d71: 21300000
+    - bffef2657a2dec044b0da08ffb7a512f: 21300000
+    - 8d9f17a135017b1429c6951e23823886: 21300000
+    - 755c7ce73dce3c4438b2d01ca1a51166: 21300000
+    - 603954d9389f5bd4f9e90980cc5509e1: 21300000
+    - e44f31c602f1cdd42a3816a53f89e24e: 21300000
+    - c72a8802dc4c666488490591585c01c4: 21300000
+    - b41b2f9504339144a98aac56609636e6: 21300000
+    - 9462ea4ed6a46714d9e6394718a32359: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 9a11ac80b6ca7224b98f03d7a21d5cdf, type: 3}
+  - {fileID: 21300000, guid: 2d4ca3e46b8c8a549a7c6caac602a06b, type: 3}
+  - {fileID: 21300000, guid: 6259e67de2c74fc419a7fe2ae0f869cb, type: 3}
   - {fileID: 21300000, guid: 21bf14830c316484089eb9583232fd88, type: 3}
   - {fileID: 21300000, guid: fcd35bdaad284b24a8b18f636cc3a6fb, type: 3}
-  - {fileID: 21300000, guid: 0d323bc598d2233428be256f3521e52b, type: 3}
+  - {fileID: 21300000, guid: 7bf3a6d9a119dc545814534c7d2e2bc8, type: 3}
+  - {fileID: 21300000, guid: f33653568c483824084b5fdc34511660, type: 3}
+  - {fileID: 21300000, guid: d765a4de3f562b14f8c3e612a0df1ee7, type: 3}
   - {fileID: 21300000, guid: c112e699787601844bb1d387ac7b25f4, type: 3}
   - {fileID: 21300000, guid: 6a31396b5dc61cc48b6efe4d46fabf74, type: 3}
+  - {fileID: 21300000, guid: dc0e4eaa1f6a55a44b1d16d858f1667a, type: 3}
   - {fileID: 21300000, guid: 0e0fc1800c6d3a14f9de0f716a9913c9, type: 3}
+  - {fileID: 21300000, guid: 0d323bc598d2233428be256f3521e52b, type: 3}
   - {fileID: 21300000, guid: 58af3cf1519e2264cbbe914a306052cc, type: 3}
   - {fileID: 21300000, guid: 92009614a5057b74cabe4be6af5c5ed5, type: 3}
+  - {fileID: 21300000, guid: 67c8a949a2af5de4ca993c8c4d2cff17, type: 3}
   - {fileID: 21300000, guid: 09691217ecf34e149ab787338e100cfb, type: 3}
+  - {fileID: 21300000, guid: f06a418e7d8d6d440a656ff185b12d71, type: 3}
+  - {fileID: 21300000, guid: bffef2657a2dec044b0da08ffb7a512f, type: 3}
+  - {fileID: 21300000, guid: 8d9f17a135017b1429c6951e23823886, type: 3}
+  - {fileID: 21300000, guid: 755c7ce73dce3c4438b2d01ca1a51166, type: 3}
+  - {fileID: 21300000, guid: 603954d9389f5bd4f9e90980cc5509e1, type: 3}
+  - {fileID: 21300000, guid: e44f31c602f1cdd42a3816a53f89e24e, type: 3}
+  - {fileID: 21300000, guid: c72a8802dc4c666488490591585c01c4, type: 3}
+  - {fileID: 21300000, guid: b41b2f9504339144a98aac56609636e6, type: 3}
+  - {fileID: 21300000, guid: 9462ea4ed6a46714d9e6394718a32359, type: 3}
   m_PackedSpriteNamesToIndex:
+  - cut
+  - ghost
+  - cut_body_top_2
   - body
   - blaster
-  - forearm
+  - blaster_2
+  - cut_body_bottom_2
+  - cut_body_bottom_1
   - Head
   - shin
+  - cut_body_top_1
   - hip
+  - forearm
   - shoulder
   - foot
+  - hand
   - neck
+  - cut_forearm_bottom_1
+  - cut_shoulder_bottom_2
+  - cut_shoulder_bottom_1
+  - hand_2
+  - hand_3
+  - hand_4
+  - hand_5
+  - cut_shoulder_top_1
+  - forearm_profile
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
