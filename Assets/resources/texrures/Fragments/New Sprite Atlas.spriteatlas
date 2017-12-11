@@ -28,27 +28,31 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 0e398dc2d2cfe9bb19fb503b310d0173
+      Hash: f1b567eefcd0da64235231a4b9cb9839
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 0e398dc2d2cfe9bb19fb503b310d0173
-    totalSpriteSurfaceArea: 2244548
+    hashString: f1b567eefcd0da64235231a4b9cb9839
+    totalSpriteSurfaceArea: 3322101
     packables:
     - {fileID: 102900000, guid: 06b71da3fcf750e4aaf767cbdf49633b, type: 3}
     packedSpriteRenderDataKeys:
     - 9a11ac80b6ca7224b98f03d7a21d5cdf: 21300000
+    - 01b9ff5bdc2bc664dacaf6297b4d7cfc: 21300000
     - 2d4ca3e46b8c8a549a7c6caac602a06b: 21300000
     - 6259e67de2c74fc419a7fe2ae0f869cb: 21300000
     - 21bf14830c316484089eb9583232fd88: 21300000
+    - 2cfdf46511131844f8dd1fd06337fd78: 21300000
     - fcd35bdaad284b24a8b18f636cc3a6fb: 21300000
     - 7bf3a6d9a119dc545814534c7d2e2bc8: 21300000
     - f33653568c483824084b5fdc34511660: 21300000
     - d765a4de3f562b14f8c3e612a0df1ee7: 21300000
     - c112e699787601844bb1d387ac7b25f4: 21300000
+    - 1f66435e2ea8ef44abc2ad844a6ea98a: 21300000
     - 6a31396b5dc61cc48b6efe4d46fabf74: 21300000
     - dc0e4eaa1f6a55a44b1d16d858f1667a: 21300000
     - 0e0fc1800c6d3a14f9de0f716a9913c9: 21300000
+    - ce604f298eb38074d8fdb042098b3e46: 21300000
     - 0d323bc598d2233428be256f3521e52b: 21300000
     - 58af3cf1519e2264cbbe914a306052cc: 21300000
     - 92009614a5057b74cabe4be6af5c5ed5: 21300000
@@ -66,17 +70,21 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 9a11ac80b6ca7224b98f03d7a21d5cdf, type: 3}
+  - {fileID: 21300000, guid: 01b9ff5bdc2bc664dacaf6297b4d7cfc, type: 3}
   - {fileID: 21300000, guid: 2d4ca3e46b8c8a549a7c6caac602a06b, type: 3}
   - {fileID: 21300000, guid: 6259e67de2c74fc419a7fe2ae0f869cb, type: 3}
   - {fileID: 21300000, guid: 21bf14830c316484089eb9583232fd88, type: 3}
+  - {fileID: 21300000, guid: 2cfdf46511131844f8dd1fd06337fd78, type: 3}
   - {fileID: 21300000, guid: fcd35bdaad284b24a8b18f636cc3a6fb, type: 3}
   - {fileID: 21300000, guid: 7bf3a6d9a119dc545814534c7d2e2bc8, type: 3}
   - {fileID: 21300000, guid: f33653568c483824084b5fdc34511660, type: 3}
   - {fileID: 21300000, guid: d765a4de3f562b14f8c3e612a0df1ee7, type: 3}
   - {fileID: 21300000, guid: c112e699787601844bb1d387ac7b25f4, type: 3}
+  - {fileID: 21300000, guid: 1f66435e2ea8ef44abc2ad844a6ea98a, type: 3}
   - {fileID: 21300000, guid: 6a31396b5dc61cc48b6efe4d46fabf74, type: 3}
   - {fileID: 21300000, guid: dc0e4eaa1f6a55a44b1d16d858f1667a, type: 3}
   - {fileID: 21300000, guid: 0e0fc1800c6d3a14f9de0f716a9913c9, type: 3}
+  - {fileID: 21300000, guid: ce604f298eb38074d8fdb042098b3e46, type: 3}
   - {fileID: 21300000, guid: 0d323bc598d2233428be256f3521e52b, type: 3}
   - {fileID: 21300000, guid: 58af3cf1519e2264cbbe914a306052cc, type: 3}
   - {fileID: 21300000, guid: 92009614a5057b74cabe4be6af5c5ed5, type: 3}
@@ -93,17 +101,21 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9462ea4ed6a46714d9e6394718a32359, type: 3}
   m_PackedSpriteNamesToIndex:
   - cut
+  - ghost2
   - ghost
   - cut_body_top_2
   - body
+  - cut_1_body
   - blaster
   - blaster_2
   - cut_body_bottom_2
   - cut_body_bottom_1
   - Head
+  - cut_1_shin_1
   - shin
   - cut_body_top_1
   - hip
+  - cut_1_shin_2
   - forearm
   - shoulder
   - foot
