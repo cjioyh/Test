@@ -771,6 +771,11 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 198268059775608688, guid: 4264743ca01b42a4baf4b3e7cf879f51,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4264743ca01b42a4baf4b3e7cf879f51, type: 2}
   m_IsPrefabParent: 0
@@ -1005,7 +1010,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4303727346401260, guid: 723c0a15688c27b418923526a588b595, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: 0.223
       objectReference: {fileID: 0}
     - target: {fileID: 4303727346401260, guid: 723c0a15688c27b418923526a588b595, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1515,6 +1520,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4303727346401260, guid: 723c0a15688c27b418923526a588b595, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4303727346401260, guid: 723c0a15688c27b418923526a588b595, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 723c0a15688c27b418923526a588b595, type: 2}
   m_IsPrefabParent: 0
@@ -1579,6 +1592,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savePos: 0
   pos: {x: 7.086527, y: 1.7767552, z: -0.000000029802322}
+--- !u!1 &1522760342 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1975409617301024, guid: 723c0a15688c27b418923526a588b595,
+    type: 2}
+  m_PrefabInternal: {fileID: 1522760334}
+--- !u!114 &1522760343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522760342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78314870aadf6f24c9f680f9bc9b62bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savePos: 1
+  pos: {x: 6.8744965, y: -3.8038332, z: -0.11327893}
 --- !u!1 &1641463653
 GameObject:
   m_ObjectHideFlags: 0
