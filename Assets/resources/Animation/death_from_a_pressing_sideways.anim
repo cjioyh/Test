@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: death_from_a_pressing_downward
+  m_Name: death_from_a_pressing_sideways
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
